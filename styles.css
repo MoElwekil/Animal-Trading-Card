@@ -1,0 +1,64 @@
+/* add your CSS here */
+body {
+    position: relative;
+    width: 340px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+div:first-child {
+    background: #f1f1f1;
+    width: 340px;
+    margin: 0 auto;
+    box-shadow: 0 0 5px #ccc;
+}
+h3 {
+    padding: 20px 0 20px 20px;
+    font-weight: 800;
+    font-size: 20px;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+}
+img {
+    float: left;
+    width: 300px;
+    height: 200px;
+    padding: 0 20px 20px;
+}
+div:last-child {
+    float: left;
+    margin: 0 20px 20px;
+}
+p:first-of-type {
+    font-style: italic;
+}
+span {
+    font-weight: bold;
+}
+div:first-child, div:last-child {
+    border: 1px solid #ccc;
+}
+div:last-child p {
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+}
+ul, menu, dir {
+    display: block;
+    list-style-type: none;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+p {
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px;
+}
+ul {
+    padding: 0 10px;
+}
+span {
+    font-weight: 800;
+    font-size: 16px;
+}
